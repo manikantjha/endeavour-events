@@ -11,7 +11,7 @@ export default function HomeMain() {
   return (
     <div>
       <Hero
-        title="Endavour Events"
+        title="Endeavour Events"
         imgAlt=""
         imgSrc="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
         hasContent

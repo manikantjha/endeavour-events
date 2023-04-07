@@ -9,7 +9,7 @@ export default function Logo() {
         alt="Flowbite Logo"
       />
       {/* <h1 className="text-3xl font-bold flex-shrink-0 text-gray-700">
-        Endavour Eevents
+        Endeavour Eevents
       </h1> */}
     </div>
   );

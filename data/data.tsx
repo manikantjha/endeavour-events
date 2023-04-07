@@ -1,4 +1,4 @@
-export const companyName = "Endavour Events";
+export const companyName = "Endeavour Events";
 
 export const lstNavbarMenu = [
   { id: 1, name: "Home", path: "/" },

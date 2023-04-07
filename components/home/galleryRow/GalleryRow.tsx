@@ -35,7 +35,6 @@ export default function GalleryRow(props: IGalleryRow) {
           isFullscreen: boolean
         ) => <FullScreenBtn onClick={onClick} isFullscreen={isFullscreen} />}
       />
-      ;
     </ContainerWrapper>
   );
 }
