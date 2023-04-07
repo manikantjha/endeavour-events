@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 shadow-md sticky top-0 left-0 right-0 z-[1000]">
+      <nav className="bg-white border-gray-200 md:px-0 pl-4 pr-2 py-2.5 shadow-md sticky top-0 left-0 right-0 z-[1000]">
         <div className="container grid grid-cols-[1fr_auto] items-center mx-auto">
           <Link href="/" className="flex items-center">
             <Logo />

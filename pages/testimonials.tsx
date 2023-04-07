@@ -1,19 +1,19 @@
-import HomeMain from "@/components/home/HomeMain";
+import TestimonialsMain from "@/components/testimonials/TestimonialsMain";
 import MainLayout from "@/layout/MainLayout";
 import Head from "next/head";
 
-export default function Home() {
+export default function Testimonials() {
   return (
     <>
       <Head>
-        <title>Endeavour Events</title>
-        <meta name="description" content="Home page" />
+        <title>Testimonials</title>
+        <meta name="description" content="Testimonials page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <MainLayout>
-          <HomeMain />
+          <TestimonialsMain />
         </MainLayout>
       </main>
     </>

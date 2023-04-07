@@ -1,32 +1,41 @@
 import ContainerWrapper from "@/components/common/ContainerWrapper";
+import Title from "@/components/common/Title";
+import { MouseEventHandler } from "react";
 import ImageGallery from "react-image-gallery";
+import FullScreenBtn from "./FullScreenBtn";
+import LeftNavBtn from "./LeftNavBtn";
+import PlayPauseBtn from "./PlayPauseBtn";
+import RightNavBtn from "./RightNavBtn";
+import { images } from "./galleryHelper";
 
-const images = [
-  {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
-    originalHeight: 200,
-    originalClass:
-      "md:h-[500px] [&>img]:h-full [&>img]:w-full [&>img]:object-cover",
-  },
-  {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
-    originalClass:
-      "md:h-[500px] [&>img]:h-full [&>img]:w-full [&>img]:object-cover",
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalClass:
-      "md:h-[500px] [&>img]:h-full [&>img]:w-full [&>img]:object-cover",
-  },
-];
+interface IGalleryRow {
+  hideTitle?: boolean;
+}
 
-export default function GalleryRow() {
+export default function GalleryRow(props: IGalleryRow) {
   return (
     <ContainerWrapper containerClassName="bg-gray-50">
-      <ImageGallery items={images} />;
+      {!props.hideTitle && <Title title="Recent Work" />}
+      <ImageGallery
+        items={images}
+        renderRightNav={(
+          onClick: MouseEventHandler<HTMLButtonElement>,
+          disabled: boolean
+        ) => <RightNavBtn onClick={onClick} disabled={disabled} />}
+        renderLeftNav={(
+          onClick: MouseEventHandler<HTMLButtonElement>,
+          disabled: boolean
+        ) => <LeftNavBtn onClick={onClick} disabled={disabled} />}
+        renderPlayPauseButton={(
+          onClick: MouseEventHandler<HTMLButtonElement>,
+          isPlaying: boolean
+        ) => <PlayPauseBtn isPlaying={isPlaying} onClick={onClick} />}
+        renderFullscreenButton={(
+          onClick: MouseEventHandler<HTMLButtonElement>,
+          isFullscreen: boolean
+        ) => <FullScreenBtn onClick={onClick} isFullscreen={isFullscreen} />}
+      />
+      ;
     </ContainerWrapper>
   );
 }

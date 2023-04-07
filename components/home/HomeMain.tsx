@@ -1,5 +1,6 @@
 import Hero from "../common/Hero";
 import Row from "../common/row/Row";
+import ContactRow from "../contact/contactRow/ContactRow";
 import FeaturesRow from "./featuresRow/FeaturesRow";
 import FiguresRow from "./figuresRow/FiguresRow";
 import GalleryRow from "./galleryRow/GalleryRow";
@@ -21,7 +22,7 @@ export default function HomeMain() {
         description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam provident, voluptate eius officiis possimus iure nemo, fugiat repellat optio nobis blanditiis eaque, adipisci minus ut sapiente temporibus porro iste quae laudantium corrupti beatae deserunt atque reiciendis! Officia inventore excepturi, doloremque atque corrupti quas velit suscipit eveniet quasi omnis rem sunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam provident, voluptate eius officiis possimus iure nemo, fugiat repellat optio nobis blanditiis eaque, adipisci minus ut sapiente temporibus porro iste quae laudantium corrupti beatae deserunt atque reiciendis! Officia inventore excepturi, doloremque atque corrupti quas velit suscipit eveniet quasi omnis rem sunt."
       />
       <FeaturesRow />
-      <TestimonialsRow />
+      <TestimonialsRow numberOfCards={4} />
       <FiguresRow />
       <ServicesRow />
       <GalleryRow />
@@ -29,8 +30,8 @@ export default function HomeMain() {
         imgSrc="https://images.unsplash.com/photo-1610703415552-d7fca41a8857?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
         title="Saftey First"
         description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam provident, voluptate eius officiis possimus iure nemo, fugiat repellat optio nobis blanditiis eaque, adipisci minus ut sapiente temporibus porro iste quae laudantium corrupti beatae deserunt atque reiciendis! Officia inventore excepturi, doloremque atque corrupti quas velit suscipit eveniet quasi omnis rem sunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam provident, voluptate eius officiis possimus iure nemo, fugiat repellat optio nobis blanditiis eaque, adipisci minus ut sapiente temporibus porro iste quae laudantium corrupti beatae deserunt atque reiciendis! Officia inventore excepturi, doloremque atque corrupti quas velit suscipit eveniet quasi omnis rem sunt."
-        // containerClassName="bg-gray-50"
       />
+      <ContactRow />
     </div>
   );
 }

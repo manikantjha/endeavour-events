@@ -1,19 +1,19 @@
-import HomeMain from "@/components/home/HomeMain";
+import ContactMain from "@/components/contact/ContactMain";
 import MainLayout from "@/layout/MainLayout";
 import Head from "next/head";
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>Endeavour Events</title>
-        <meta name="description" content="Home page" />
+        <title>Contact</title>
+        <meta name="description" content="Contact page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <MainLayout>
-          <HomeMain />
+          <ContactMain />
         </MainLayout>
       </main>
     </>

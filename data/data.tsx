@@ -65,6 +65,54 @@ export const lstTestimonials = [
     testimonial:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nihil.",
   },
+  {
+    id: 5,
+    client: {
+      imgSrc:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80",
+      name: "John Doe",
+      designation: "Owner at XYZ",
+    },
+    title: "Lorem ipsum dolor sit amet.",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nihil.",
+  },
+  {
+    id: 6,
+    client: {
+      imgSrc:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      name: "John Doe",
+      designation: "Owner at XYZ",
+    },
+    title: "Lorem ipsum dolor sit amet.",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nihil.",
+  },
+  {
+    id: 7,
+    client: {
+      imgSrc:
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      name: "John Doe",
+      designation: "Owner at XYZ",
+    },
+    title: "Lorem ipsum dolor sit amet.",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nihil.",
+  },
+  {
+    id: 8,
+    client: {
+      imgSrc:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=761&q=80",
+      name: "John Doe",
+      designation: "Owner at XYZ",
+    },
+    title: "Lorem ipsum dolor sit amet.",
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, nihil.",
+  },
 ];
 
 export const lstFeatures = [
@@ -188,5 +236,86 @@ export const lstServices = [
       "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "Lorem ipsum dolor sit amet consectetur.",
     ],
+  },
+];
+
+export const objHowItStartedInfo = {
+  description: (
+    <>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        veniam tempore minus amet, impedit blanditiis omnis saepe accusamus
+        quidem quibusdam quam eum molestias fugit minima quos hic sint
+        doloremque voluptate? Quos voluptatum, qui quaerat deserunt itaque
+        facere vitae amet quae. Corrupti ut rem iste repellat repellendus enim
+        impedit fuga sint. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Ad deleniti quibusdam vero nostrum magnam, tempora quod quisquam,
+        nobis doloremque distinctio maxime! Numquam natus maiores illo quod
+        veniam aperiam aut voluptates.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        veniam tempore minus amet, impedit blanditiis omnis saepe accusamus
+        quidem quibusdam quam eum molestias fugit minima quos hic sint
+        doloremque voluptate? Quos voluptatum, qui quaerat deserunt itaque
+        facere vitae amet quae. Corrupti ut rem iste repellat repellendus enim
+        impedit fuga sint. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Ad deleniti quibusdam vero nostrum magnam, tempora quod quisquam,
+        nobis doloremque distinctio maxime! Numquam natus maiores illo quod
+        veniam aperiam aut voluptates.
+      </p>
+    </>
+  ),
+};
+
+export const objFounderInfo = {
+  imgSrc:
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+  name: "John Doe",
+  description:
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos explicabo quibusdam doloremque  oluptates libero odit non praesentium  repellendus magni aliquid vel, possimus odio expedita obcaecati! Fugiat perferendis minima corporis mollitia perspiciatis, placeat accusantium nesciunt commodi dolores et sint quae sit? Sapiente, ducimus quaerat. Cupiditate repellendus nemo animi numquam hic velit.",
+};
+
+export const lstTeamMembers = [
+  {
+    id: 1,
+    imgSrc:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    name: "John Doe",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officiis.",
+  },
+  {
+    id: 2,
+    imgSrc:
+      "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    name: "John Doe",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officiis.",
+  },
+  {
+    id: 3,
+    imgSrc:
+      "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    name: "John Doe",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officiis.",
+  },
+  {
+    id: 4,
+    imgSrc:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    name: "John Doe",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officiis.",
+  },
+  {
+    id: 5,
+    imgSrc:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    name: "John Doe",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, officiis.",
   },
 ];

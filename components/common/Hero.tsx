@@ -2,7 +2,7 @@
 
 interface IHero {
   imgSrc: string;
-  imgAlt: string;
+  imgAlt?: string;
   hasContent?: boolean;
   title?: string;
   description?: string;
@@ -11,7 +11,7 @@ interface IHero {
 export default function Hero(props: IHero) {
   return (
     <div
-      className="h-[60vh] w-full overflow-hidden relative"
+      className="h-[65vh] w-full overflow-hidden relative"
       style={{
         backgroundImage: `url(${props.imgSrc})`,
         backgroundAttachment: "fixed",
@@ -28,8 +28,8 @@ export default function Hero(props: IHero) {
       {props.hasContent && (
         <>
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,0.5)]" />
-          <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-center">
-            <h2 className="text-3xl md:text-6xl font-bold text-white mb-4">
+          <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-center w-full p-4">
+            <h2 className="text-3xl md:text-6xl text-white mb-4 tracking-wide w-full">
               {props.title}
             </h2>
             <p className="text-white text-lg md:text-2xl">
